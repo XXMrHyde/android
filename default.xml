@@ -49,7 +49,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
+  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="darkkat" revision="darkkat-4.4" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="darkkat" revision="darkkat-4.4" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
@@ -303,6 +303,7 @@
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="kernel/msm/flo" name="android_kernel_google_msm" remote="darkkat" revision="darkkat-4.4-flo-mr1" />
+  <project path="kernel/msm/hammerhead" name="android_kernel_lge_hammerhead" remote="darkkat" revision="darkkat-4.4-hammerhead-mr1" />
   <project path="kernel/msm/mako" name="XXMrHyde/android_kernel_google_msm" remote="github" revision="darkkat-4.4-mako-mr1" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
