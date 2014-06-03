@@ -14,7 +14,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="darkkat" revision="darkkat-4.4" groups="pdk" >
+  <project path="build" name="android_build" remote="darkkat" revision="darkkat-4.4.3" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -33,8 +33,8 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/deb" name="android_device_asus_deb" remote="darkkat" revision="darkkat-4.4" groups="device,flo" />
-  <project path="device/asus/flo" name="android_device_asus_flo" remote="darkkat" revision="darkkat-4.4" groups="device,flo" />
+  <project path="device/asus/deb" name="android_device_asus_deb" remote="darkkat" revision="darkkat-4.4.3" groups="device,flo" />
+  <project path="device/asus/flo" name="android_device_asus_flo" remote="darkkat" revision="darkkat-4.4.3" groups="device,flo" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -46,8 +46,8 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="darkkat" revision="darkkat-4.4" groups="device,hammerhead" />
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="darkkat" revision="darkkat-4.4" groups="device,mako" />
+  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="darkkat" revision="darkkat-4.4.3" groups="device,hammerhead" />
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="darkkat" revision="darkkat-4.4.3" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -72,7 +72,7 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="android_external_chromium_org" remote="darkkat" revision="darkkat-4.4" />
+  <project path="external/chromium_org" name="platform/external/chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -253,12 +253,12 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="android_frameworks_ex" remote="darkkat" revision="darkkat-4.4" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
-  <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="darkkat" revision="darkkat-4.4" />
+  <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="darkkat" revision="darkkat-4.4.3" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" />
@@ -269,7 +269,7 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="darkkat" revision="darkkat-4.4" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -307,7 +307,7 @@
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="darkkat" revision="darkkat-4.4" />
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="darkkat" revision="darkkat-4.4.3" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -317,22 +317,22 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="darkkat" revision="darkkat-4.4" />
-  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="darkkat" revision="darkkat-4.4" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DashClock" name="omnirom/android_packages_apps_DashClock" remote="github" revision="android-4.4" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="darkkat" revision="darkkat-4.4" />
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="darkkat" revision="android-4.4" />
+  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="darkkat" revision="android-4.4.3" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="darkkat" revision="darkkat-4.4" />
+  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="darkkat" revision="darkkat-4.4" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="darkkat" revision="darkkat-4.4" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="darkkat" revision="darkkat-4.4" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="darkkat" revision="darkkat-4.4.3" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
@@ -349,7 +349,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="darkkat" revision="darkkat-4.4" />
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="darkkat" revision="darkkat-4.4.3" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
@@ -363,12 +363,12 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="darkkat" revision="darkkat-4.4" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="darkkat" revision="darkkat-4.4" />
+  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -428,9 +428,9 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="android_system_core" remote="darkkat" revision="darkkat-4.4" groups="pdk" />
-  <project path="system/extras" name="android_system_extras" remote="darkkat" revision="darkkat-4.4" groups="pdk" />
-  <project path="system/media" name="android_system_media" remote="darkkat" revision="darkkat-4.4" groups="pdk" />
+  <project path="system/core" name="android_system_core" remote="darkkat" revision="darkkat-4.4.3" groups="pdk" />
+  <project path="system/extras" name="android_system_extras" remote="darkkat" revision="darkkat-4.4.3" groups="pdk" />
+  <project path="system/media" name="android_system_media" remote="darkkat" revision="darkkat-4.4.3" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
@@ -445,6 +445,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/dk" name="android_vendor_dk" remote="darkkat" revision="darkkat-4.4" />
+  <project path="vendor/dk" name="android_vendor_dk" remote="darkkat" revision="darkkat-4.4.3" />
 
 </manifest>
