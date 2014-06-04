@@ -253,7 +253,7 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="darkkat" revision="darkkat-4.4.3" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
@@ -332,7 +332,7 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="darkkat" revision="darkkat-4.4.3" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="darkkat" revision="darkkat-4.4.3" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
