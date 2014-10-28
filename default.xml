@@ -500,8 +500,8 @@
   <project path="vendor/cm" name="XXMrHyde/android_vendor_cm" remote="darkkat" revision="dck-11" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   
-  <project path="device/motorola/condor" name="percy-g2/android_device_motorola_condor" revision="cm-11.0" />
-  <project path="kernel/motorola/msm8610" name="percy-g2/android_kernel_motorola_msm8610" revision="cm-11.0" />
+  <project path="device/motorola/condor" name="XXMrHyde/android_device_motorola_condor" remote="darkkat" revision="dck-11" />
+  <project path="kernel/motorola/msm8610" name="XXMrHyde/android_kernel_motorola_msm8610" remote="darkkat" revision="dck-11" />
   <project path="vendor/motorola/condor" name="percy-g2/android_vendor_motorola_condor" revision="cm-11.0" />
   <project path="vendor/dk" name="XXMrHyde/android_vendor_dk" remote="darkkat" revision="dck-11" />
 </manifest>
