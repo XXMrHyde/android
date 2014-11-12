@@ -365,7 +365,8 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="kernel/msm/hammerhead" name="Tasssadar/android_kernel_google_msm" remote="github" revision="android-msm-hammerhead-3.4-l-preview-kexec" />
+  <project path="kernel/msm/flo" name="android_kernel_google_msm" remote="darkkat" revision="darkkat-5.0.0-flo-l-preview" />
+  <project path="kernel/msm/hammerhead" name="android_kernel_lge_hammerhead" remote="darkkat" revision="darkkat darkkat-5.0.0-hammerhead-l-preview" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
