@@ -361,6 +361,7 @@
   <project path="kernel/msm/flo" name="android_kernel_google_msm" remote="darkkat" revision="darkkat-5.0.0-flo-lollipop-release" />
   <project path="kernel/msm/hammerhead" name="android_kernel_lge_hammerhead" remote="darkkat" revision="darkkat-5.0.0-hammerhead-lollipop-release" />
   <project path="kernel/msm/mako" name="XXMrHyde/android_kernel_google_msm" remote="github" revision="darkkat-5.0.0-mako-lollipop-release" />
+  <project path="kernel/msm/shamu" name="android_kernel_moto_shamu" remote="darkkat" revision="darkkat-5.0.0-shamu-lollipop-release" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
