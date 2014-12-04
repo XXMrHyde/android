@@ -285,7 +285,7 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="android_frameworks_ex" remote="darkkat" revision="darkkat-5.0.1" groups="pdk-cw-fs" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" />
   <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
@@ -295,7 +295,7 @@
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/chips" name="android_frameworks_opt_chips" remote="darkkat" revision="darkkat-5.0.1" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
