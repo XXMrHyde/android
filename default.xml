@@ -10,11 +10,11 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <default revision="refs/tags/android-5.0.1_r1"
+  <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="darkkat" revision="darkkat-5.0.1" groups="pdk,tradefed" >
+  <project path="build" name="android_build" remote="darkkat" revision="darkkat-5.0.2" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="android" remote="darkkat" revision="darkkat-5.0.0" />
@@ -281,7 +281,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="darkkat" revision="darkkat-5.0.1" groups="pdk-cw-fs" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="darkkat" revision="darkkat-5.0.2" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
