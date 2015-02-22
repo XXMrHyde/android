@@ -577,7 +577,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="darkkat" revision="darkkat-cm-12" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.0" />
