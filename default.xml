@@ -588,4 +588,6 @@
   <project path="device/motorola/condor" name="percy-g2/android_device_motorola_condor" revision="cm-12.0" />
   <project path="kernel/motorola/msm8610" name="percy-g2/android_kernel_motorola_msm8610" revision="cm-12.0" />
   <project path="vendor/motorola/condor" name="percy-g2/android_vendor_motorola_condor" revision="cm-12.0" />
+
+  <project path="vendor/dk" name="android_vendor_dk" remote="darkkat" revision="darkkat-5.0.0" />
 </manifest>
