@@ -362,10 +362,10 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="kernel/msm/flo" name="android_kernel_google_msm" remote="darkkat" revision="darkkat-5.0.0-flo-lollipop-release" />
-  <project path="kernel/msm/hammerhead" name="android_kernel_lge_hammerhead" remote="darkkat" revision="darkkat-5.0.0-hammerhead-lollipop-release" />
-  <project path="kernel/msm/mako" name="XXMrHyde/android_kernel_google_msm" remote="github" revision="darkkat-5.0.0-mako-lollipop-release" />
-  <project path="kernel/msm/shamu" name="android_kernel_moto_shamu" remote="darkkat" revision="darkkat-5.0.0-shamu-lollipop-release" />
+  <project path="kernel/msm/flo" name="android_kernel_google_msm" remote="darkkat" revision="darkkat-5.0.2-flo" />
+  <project path="kernel/msm/hammerhead" name="android_kernel_lge_hammerhead" remote="darkkat" revision="darkkat-5.0.2-hammerhead" />
+  <project path="kernel/msm/mako" name="XXMrHyde/android_kernel_google_msm" remote="github" revision="darkkat-5.0.2-mako" />
+  <project path="kernel/msm/shamu" name="android_kernel_moto_shamu" remote="darkkat" revision="darkkat-5.0.2-shamu" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
