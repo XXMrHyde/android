@@ -584,6 +584,4 @@
   <project path="vendor/cm" name="android_vendor_cm" remote="darkkat" revision="darkkat-cm-12" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/dk" name="android_vendor_dk" remote="darkkat" revision="darkkat-cm-12" />
-
-  <project path="device/motorola/condor" name="android_device_motorola_condor" remote="darkkat" revision="darkkat-cm-12" />
 </manifest>
