@@ -384,6 +384,7 @@
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="darkkat" revision="darkkat-5.1" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="darkkat" revision="darkkat-5.1" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="darkkat" revision="darkkat-5.1" />
