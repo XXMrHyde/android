@@ -345,7 +345,7 @@
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="kernel/msm/flo" name="android_kernel_google_msm" remote="darkkat" revision="darkkat-6.0-flo" />
-  <project path="kernel/msm/bullhead" name="kernel/msm" revision="android-msm-bullhead-3.10-marshmallow-dr1.5" />
+  <project path="kernel/msm/bullhead" name="android_kernel_lge_bullhead" remote="darkkat" revision="darkkat-6.0-bullhead" />
   <project path="kernel/msm/hammerhead" name="android_kernel_lge_hammerhead" remote="darkkat" revision="darkkat-6.0-hammerhead" />
   <project path="kernel/msm/shamu" name="android_kernel_moto_shamu" remote="darkkat" revision="darkkat-6.0-shamu" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
