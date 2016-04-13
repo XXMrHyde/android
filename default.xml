@@ -490,6 +490,9 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/dk" name="android_vendor_dk" remote="darkkat" revision="darkkat-6.0" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="darkkat" revision="darkkat-6.0" />
+  <project path="vendor/dk" name="android_vendor_dk" remote="darkkat" revision="mm" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="darkkat" revision="mm" />
+  <project path="vendor/moto" name="proprietary_vendor_moto" remote="darkkat" revision="mm" />
 
 </manifest>
