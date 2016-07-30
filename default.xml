@@ -47,6 +47,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
+  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="darkkat" revision="darkkat-6.0" groups="device,bullhead" />
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="darkkat" revision="darkkat-m-dev" groups="device,hammerhead,broadcom_pdk,generic_fs" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
@@ -339,6 +340,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <project path="kernel/msm/bullhead" name="android_kernel_lge_bullhead" remote="darkkat" revision="darkkat-6.0-bullhead" />
   <project path="kernel/msm/flo" name="android_kernel_google_msm" remote="darkkat" revision="darkkat-6.0-flo" />
   <project path="kernel/msm/hammerhead" name="android_kernel_lge_hammerhead" remote="darkkat" revision="darkkat-6.0-hammerhead" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
